@@ -1,0 +1,33 @@
+Failures
+
+fail stop (devops should fix)
+fail recovery (crash and return back, don't influent on computing)
+fail byzantine
+
+Links 
+
+perfect link (all messages delivered without modification)
+fair-loss link (some messages lost)
+byzantine links (some messages can be filtered with some rule or modified or get lost)
+
+
+Clock
+
+clock skew - time different on different machine
+clock drift 
+
+MapReduce
+
+1 fail stop - 
+2 fail-rec -
+3 byz
+4 are lost
+5 created, modified -
+6 both -
+7 map -
+8 shuffle
+9 min sum -
+10 cat uniq, uniq uniq -
+11 cat uniq -d
+12 What service in Hadoop MapReduce v1 is responsible for running map and reduce tasks: task -
+13 a process -
