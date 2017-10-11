@@ -1,0 +1,31 @@
+1 tables
+2 json
+3 occupy, allow less - 
+4 Simplified, serialized, scalar values - 
+5 false -
+6 true
+7 commodity
+8 increasing
+9 splitting
+10 location, permission, creation
+11 access all -?
+12 both -
+13 namenode
+14  block size
+
+csv + speed, splittable 
+json + speed, data types, splittable, extensibility
+sequenceFile + space eff, speed, data types, splittable
+avro + space eff, speed, data types, splittable, extensibility
+
+RCFile Columnar format (x1x2x3x4 y1y2y3y4 z1z2z3z4) + space eff, speed, splittable
+Paruet Columnar format 
+
+Compression
+
+1PB/64MB*3*300B = 1000000gb/0.064gb*3*0.0000003gb = 14gb
+
+ms = 0.001s
+seek = 5ms
+time to read block = 1000ms = 1s
+avg reading speed = 60 mb/s
