@@ -16,18 +16,16 @@ Clock
 clock skew - time different on different machine
 clock drift 
 
-MapReduce
-
-1 fail stop - 
-2 fail-rec -
-3 byz
-4 are lost
-5 created, modified -
-6 both -
-7 map -
-8 shuffle
-9 min sum -
-10 cat uniq, uniq uniq -
-11 cat uniq -d
-12 What service in Hadoop MapReduce v1 is responsible for running map and reduce tasks: task -
-13 a process -
+1 input format, input processor, output rec format
+2 inp rec form, agg rec by key, processor, output rec format
+3 stream of input rec
+4 stream or each input ?
+5 reduce
+6 map
+7 pow
+8 uniq
+9 set
+10 deliver
+11 counters
+12 both
+13 both
